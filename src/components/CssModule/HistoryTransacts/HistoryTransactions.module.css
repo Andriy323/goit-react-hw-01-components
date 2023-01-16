@@ -1,0 +1,25 @@
+.transaction_history{
+    color: rgb(0, 0, 0);
+width: 650px;
+border-collapse: collapse;
+border: 2px solid gray;
+text-align: center;
+
+}
+
+th{
+    border: 2px solid gold;
+    color: white;
+    background-color: rgb(236, 199, 120);
+    font-size: 17px;
+}
+
+td{
+    border:2px solid gold;
+    font-size: 17px;
+
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+}
