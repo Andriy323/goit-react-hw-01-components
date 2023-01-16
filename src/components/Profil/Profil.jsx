@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 // import userData from 'components/user.json'
-import css from 'components/CssModule/profilModule/Profil.module.css'
+import css from 'components/Profil/Profil.module.css'
 export default function Profil({src, username, tag, followers, likes, location, views}) {
 
   return ( 

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import css from 'components/CssModule/StatsModule/Stats.module.css';
-import getRandomColor from 'helpers/randonColor';
+import css from 'components/Stats/Stats.module.css';
+import getRandomColor from 'helpers/randomColor';
 
 export default function Stats(props) {
   const { title, stats } = props;

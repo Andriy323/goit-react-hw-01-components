@@ -1,4 +1,4 @@
-import css from 'components/CssModule/friendsModule/Friends.module.css';
+import css from 'components/Friends/Friends.module.css';
 import PropTypes from 'prop-types';
 
 export default function FriendList({ friends }) {
